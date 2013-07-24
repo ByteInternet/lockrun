@@ -1,3 +1,9 @@
+lockrun (2:1.1.2) unstable; urgency=low
+
+  * Support -Q as well as -q (Cipri).
+
+ -- Allard Hoeve <allard@byte.nl>  Wed, 24 Jul 2013 15:09:08 +0200
+
 lockrun (1.1.2) unstable; urgency=low
 
   * New upstream version.
