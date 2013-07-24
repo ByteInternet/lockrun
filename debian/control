@@ -5,6 +5,8 @@ Maintainer: Allard Hoeve <allard@byte.nl>
 Uploaders: Gertjan Oude Lohuis <gertjan@byte.nl>
 Build-Depends: debhelper (>= 8)
 Standards-Version: 3.9.1
+Homepage: http://www.unixwiz.net/tools/lockrun.html
+Vcs-Browser: https://github.com/ByteInternet/lockrun.git
 
 Package: lockrun
 Architecture: any
