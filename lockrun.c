@@ -61,6 +61,7 @@ static const char *const helptext[] = {
 	"    -I",
 	"  --quiet       Exit quietly (and with success) if locked",
 	"    -q",
+	"    -Q",
 	"  --lockfile=F  Specify lockfile as file <F>",
 	"    -L=F",
 	"  --wait        Wait for lockfile to appear (else exit on lock)",
@@ -148,7 +149,7 @@ int main(int argc, char **argv)
 			Verbose++;
 		}
 
-		else if ( STRMATCH(arg, "-q") || STRMATCH(arg, "--quiet") || STRMATCH(arg, "-I") || STRMATCH(arg, "--idempotent"))
+		else if ( STRMATCH(arg, "-Q") || STRMATCH(arg, "-q") || STRMATCH(arg, "--quiet") || STRMATCH(arg, "-I") || STRMATCH(arg, "--idempotent"))
 		{
 			Quiet = TRUE;
 		}
