@@ -1,0 +1,23 @@
+lockrun (1.1.2) unstable; urgency=low
+
+  * New upstream version.
+    - new option --retries to be used with --wait
+  * Merge with github version at https://github.com/pushcx/lockrun
+    - new option --idempotent is an alias to --quiet
+    - exit using command's exitcode
+
+ -- Allard Hoeve <allard@byte.nl>  Wed, 24 Jul 2013 14:07:13 +0200
+
+lockrun (1.1.1) unstable; urgency=low
+
+  * New upstream version.
+    - new option --quiet
+    - support flock on platforms that have it
+
+ -- Gertjan Oude Lohuis <gertjan@byte.nl>  Tue, 04 Dec 2012 11:39:21 +0100
+
+lockrun (1.0.3) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Roy van Baekel <roy@byte.nl>  Wed, 12 Jan 2011 12:53:45 +0100
