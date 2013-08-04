@@ -206,4 +206,18 @@ History
 License
 =======
 
-This software is public domain.
+This software was places in the public domain by Stephen J. Friedl.
+All contributions are also in the public domain.
+
+The original license reads:
+
+> Written by : Stephen J. Friedl
+>              Software Consultant
+>              Southern California USA
+>              steve@unixwiz.net
+>              http://www.unixwiz.net/tools/
+> 
+>      ===================================================================
+>      ======== This software is in the public domain, and can be ========
+>      ======== used by anybody for any purpose                   ========
+>      ===================================================================
