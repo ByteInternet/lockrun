@@ -1,3 +1,23 @@
+lockrun (2:1.1.2-2) unstable; urgency=low
+
+  [ Allard Hoeve ]
+  * Set RC when execvp fails
+
+  [ Cipri ]
+  * Allow uppercase -Q, as before
+  * Update man page to consistently use -Q, eventhough we accept -q as well
+
+  [ Peter Harkins ]
+  * Credit contributors
+
+  [ Allard Hoeve ]
+  * Add manpage
+  * Add Makefile
+  * Restructure README so that a manpage can be generated
+  * Add ruby-ronn to Depends for manpages
+
+ -- Allard Hoeve <allard@byte.nl>  Mon, 12 Aug 2013 14:39:48 +0200
+
 lockrun (2:1.1.2) unstable; urgency=low
 
   * Support -Q as well as -q (Cipri).
