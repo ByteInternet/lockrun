@@ -1,0 +1,16 @@
+Source: lockrun
+Section: misc
+Priority: extra
+Maintainer: Allard Hoeve <allard@byte.nl>
+Uploaders: Gertjan Oude Lohuis <gertjan@byte.nl>
+Build-Depends: debhelper (>= 8), dpkg-dev (>= 1.16.1), ruby-ronn
+Standards-Version: 3.9.1
+Homepage: http://www.unixwiz.net/tools/lockrun.html
+Vcs-Browser: https://github.com/ByteInternet/lockrun.git
+
+Package: lockrun
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: prevent a cron running multiple times
+  Lockrun provided a way to make sure a crontask isn't running multiple times
+  without having to worry about any code
