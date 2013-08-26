@@ -29,8 +29,8 @@ environment.
 
 To build and install it from the command line:
 
-    $ gcc lockrun.c -o lockrun
-    $ sudo cp lockrun /usr/local/bin/
+    $ ./autogen.sh
+    $ ./configure && make && make install
 
 Now we'll find `lockrun` in the usual place: `/usr/local/bin/`.
 
