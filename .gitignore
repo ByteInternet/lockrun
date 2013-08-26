@@ -1,1 +1,20 @@
 lockrun
+lockrun.o
+
+# autotools
+aclocal.m4
+autom4te.cache
+m4/
+configure
+config.log
+config.status
+install-sh
+missing
+Makefile.in
+Makefile
+depcomp
+.deps
+config.sub
+config.guess
+ltmain.sh
+libtool
